@@ -1,0 +1,174 @@
+body{
+    padding:0;
+    margin: 0;
+}
+.navbar {
+    background-color: rgb(56, 16, 168);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: white;
+    padding: 12px 13px;
+    font-family: 'Martian Mono', monospace;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Home Section Styles */
+#Home {
+    position: relative;
+    overflow: hidden;
+    height: 550px;
+}
+
+#Home img {
+    z-index: -3;
+    position: absolute;
+    width: 100%;
+}
+
+#Home h2 {
+    color: rgb(17, 16, 16);
+    font-family: 'Martian Mono', monospace;
+    width: 48%;
+    padding-top: 50px;
+    text-align: left;
+    font-size: 70px;
+    margin-left: 700px;
+    font-weight: bold;
+    position: relative;
+}
+
+#Home p {
+    color: rgb(26, 25, 25);
+    font-family: 'Martian Mono', monospace;
+    width: 700px;
+    text-align: left;
+    font-size: 17px;
+    margin-top: -40px;
+    margin-left: 600px;
+    margin-right: 200px;
+    padding-left: 30px;
+    padding-right: 100px;
+}
+
+/* About Section Styles */
+.intro {
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 3px -3px 7px 0px rgba(0, 0, 0, 0.23);
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.intro img {
+    padding: 50px;
+}
+
+.intro p {
+    padding: 50px;
+    text-align: center;
+    font-family: 'Martian Mono', monospace;
+}
+
+/* Program Section Styles */
+
+.parent{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+.program {
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 3px -3px 7px 0px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: 3px -3px 7px 0px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 3px -3px 7px 0px rgba(0, 0, 0, 0.23);
+    border-radius: 10px;
+    background-color: rgb(209, 232, 252);
+}
+
+.program img {
+    padding: 50px 100px;
+}
+
+.program p {
+    font-family: 'Martian Mono', monospace;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10%;
+    padding-top: 1%;
+}
+
+.program2 {
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 3px -3px 7px 0px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: 3px -3px 7px 0px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 3px -3px 7px 0px rgba(0, 0, 0, 0.23);
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.program2 img {
+    padding: 50px 70px;
+}
+
+.program2 p {
+    font-family: 'Martian Mono', monospace;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10%;
+    padding-top: 1%;
+}
+
+.program3 {
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 3px -3px 7px 0px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: 3px -3px 7px 0px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 3px -3px 7px 0px rgba(0, 0, 0, 0.23);
+    border-radius: 10px;
+    background-color: rgb(209, 232, 252);
+}
+
+.program3 img {
+    padding: 50px 70px;
+}
+
+.program3 p {
+    font-family: 'Martian Mono', monospace;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10%;
+    padding-top: 1%;
+}
+
+/* Footer Styles */
+.slogan {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: groove;
+    display: flex;
+}
+
+.slogan img {
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.slogan p {
+    font-family: 'Martian Mono', monospace;
+    padding-left: 48px;
+    font-weight: bold;
+    font-size: 13px;
+}
