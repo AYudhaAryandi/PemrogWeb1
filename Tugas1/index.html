@@ -1,65 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HealthGo</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="index.css">
-</head>
-<link rel="icon" type="image/x-icon" href="img/AED.png" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HealthGo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <link rel="icon" type="image/x-icon" href="img/AED.png" />
 
-<body>
-  <header>
-    <div class="navbar">
-      <a href="#Home">Home</a>
-      <a href="#About">About</a>
-      <a href="#Program">Program</a>
-    </div>
-  </header>
-  
-  <main class="Jumbotron">
-    <div id="Home">
-      <img src="img/medicine-blue-background-flat-lay.jpg" alt="" />
-      <h2>Selamat Datang di HealthGo</h2>
-      <p>Layanan kesehatan yang dapat kamu akses secara online. Gratis! dimanapun dan kapanpun. Segera hubungi dokter pilihanmu di <b>HealthGo</b></p>
-    </div>
-
-    <div class="intro" id="About">
-      <div>
-        <img src="img/Group 237507.jpg" alt="" />
-        <p>Kenalan sama kita yuk! <br /> Dear Carefriends, terima kasih telah membersamai kami sejak tahun 2023. Kami berkomitmen untuk membantu masyarakat dalam layanan konsultasi secara online dan gratis dengan tenaga kesehatan yang ahli dan profesional. Tetap berkembang bersama kami untuk mendukung fasilitas Telemedicine yang nyaman digunakan ya Carefriends!</p>
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Program">Program</a>
       </div>
-    </div>
+    </header>
 
-    <div class="parent" id="Program">
-      <div class="program">
-        <img src="img/AED.png" alt="" />
-        <p>Konsultasi Online</p>
-        <p>Menyediakan layanan konsultasi online selama 24 jam</p>
+    <main class="Jumbotron">
+      <div id="Home">
+        <img src="img/medicine-blue-background-flat-lay.jpg" alt="" />
+        <h2>Selamat Datang di HealthGo</h2>
+        <p>
+          Layanan kesehatan yang dapat kamu akses secara online. Gratis!
+          dimanapun dan kapanpun. Segera hubungi dokter pilihanmu di
+          <b>HealthGo</b>
+        </p>
       </div>
 
-      <div class="program2">
-        <img src="img/Medical Doctor.png" alt="" />
-        <p>Medis Profesional</p>
-        <p>Menyediakan layanan konsultasi online selama 24 jam</p>
+      <div class="intro" id="About">
+        <div>
+          <img src="img/Group 237507.jpg" alt="" />
+          <p>
+            Kenalan sama kita yuk! <br />
+            Dear Carefriends, terima kasih telah membersamai kami sejak tahun
+            2023. Kami berkomitmen untuk membantu masyarakat dalam layanan
+            konsultasi secara online dan gratis dengan tenaga kesehatan yang
+            ahli dan profesional. Tetap berkembang bersama kami untuk mendukung
+            fasilitas Telemedicine yang nyaman digunakan ya Carefriends!
+          </p>
+        </div>
       </div>
 
-      <div class="program3">
-        <img src="img/Medical History.png" alt="" />
-        <p>Dokter Berkualitas</p>
-        <p>Menyediakan layanan konsultasi online selama 24 jam</p>
-      </div>
-    </div>
-  </main>
+      <div class="parent" id="Program">
+        <div class="program">
+          <img src="img/AED.png" alt="" />
+          <p>Konsultasi Online</p>
+          <p>Menyediakan layanan konsultasi online selama 24 jam</p>
+        </div>
 
-  
-  <footer>
-    <div class="slogan">
-      <img src="img/Group 10 (4).png" alt="" />
-      <p>Kamu lagi sakit? <b style="color: rgb(7, 162, 159)">HealthGo</b> solusinya. tanpa antri, tanpa ribet, konsulin aja!</p>
-    </div>
-  </footer>
-</body>
+        <div class="program2">
+          <img src="img/Medical Doctor.png" alt="" />
+          <p>Medis Profesional</p>
+          <p>Menyediakan layanan konsultasi online selama 24 jam</p>
+        </div>
+
+        <div class="program3">
+          <img src="img/Medical History.png" alt="" />
+          <p>Dokter Berkualitas</p>
+          <p>Menyediakan layanan konsultasi online selama 24 jam</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="slogan">
+        <img src="img/Group 10 (4).png" alt="" />
+        <p>
+          Kamu lagi sakit?
+          <b style="color: rgb(7, 162, 159)">HealthGo</b> solusinya. tanpa
+          antri, tanpa ribet, konsulin aja!
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var homeImage = document.getElementById("Home").querySelector("img");
+        window.addEventListener("scroll", function () {
+          var scrollPosition = window.pageYOffset;
+          homeImage.style.transform =
+            "translateY(" + scrollPosition * 0.1 + "px)";
+        });
+      });
+    </script>
+  </body>
 </html>
