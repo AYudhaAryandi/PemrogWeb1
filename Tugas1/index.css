@@ -1,6 +1,7 @@
 body{
     padding:0;
     margin: 0;
+    font-family: 'Martian Mono', monospace;
 }
 .navbar {
     background-color: rgb(56, 16, 168);
@@ -15,7 +16,6 @@ body{
 .navbar a {
     color: white;
     padding: 12px 13px;
-    font-family: 'Martian Mono', monospace;
     font-weight: bold;
     text-decoration: none;
 }
@@ -36,7 +36,6 @@ body{
 
 #Home h2 {
     color: rgb(17, 16, 16);
-    font-family: 'Martian Mono', monospace;
     width: 48%;
     padding-top: 50px;
     text-align: left;
@@ -48,7 +47,6 @@ body{
 
 #Home p {
     color: rgb(26, 25, 25);
-    font-family: 'Martian Mono', monospace;
     width: 700px;
     text-align: left;
     font-size: 17px;
@@ -78,7 +76,7 @@ body{
 .intro p {
     padding: 50px;
     text-align: center;
-    font-family: 'Martian Mono', monospace;
+    
 }
 
 /* Program Section Styles */
@@ -103,7 +101,7 @@ body{
 }
 
 .program p {
-    font-family: 'Martian Mono', monospace;
+    
     font-weight: bold;
     font-size: 20px;
     padding: 10%;
@@ -126,7 +124,7 @@ body{
 }
 
 .program2 p {
-    font-family: 'Martian Mono', monospace;
+    
     font-weight: bold;
     font-size: 20px;
     padding: 10%;
@@ -148,7 +146,7 @@ body{
 }
 
 .program3 p {
-    font-family: 'Martian Mono', monospace;
+    
     font-weight: bold;
     font-size: 20px;
     padding: 10%;
@@ -171,7 +169,7 @@ body{
 }
 
 .slogan p {
-    font-family: 'Martian Mono', monospace;
+    
     padding-left: 48px;
     font-weight: bold;
     font-size: 13px;
