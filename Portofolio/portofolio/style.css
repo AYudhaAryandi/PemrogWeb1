@@ -24,7 +24,6 @@ body {
 }
 
 .sosmed a {
-  /* border: 2px solid red; */
   padding: 4px;
   color: white;
   text-decoration: none;
@@ -91,6 +90,8 @@ body {
   margin-top: 80px;
   text-align: center;
 }
+
+
 
 footer{
     margin-top: 20px;

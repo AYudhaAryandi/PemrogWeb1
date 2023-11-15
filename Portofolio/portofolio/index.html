@@ -12,24 +12,22 @@
   </head>
   <body>
     <!--navbar-->
-      <nav>
-        <div class="logo">
-            <h2>
-                MyPortofolio
-            </h2>
-             <div class="sosmed">
-        <a href="https://github.com/AYudhaAryandi">
-            <img src="./img/Github (github ).png" alt="">
-        </a>
-        <a href="https://www.instagram.com/ydharyndi_yud/">
-            <img src="./img/Instagram (instagram).png" alt="">
-        </a>
-        <a href="https://www.linkedin.com/in/yudha-aryandi-6326aa256/">
-            <img src="./img/Instagram-one (instagram).png" alt="">
-        </a>
-    </div>
+    <nav>
+      <div class="logo">
+        <h2>MyPortofolio</h2>
+        <div class="sosmed">
+          <a href="https://github.com/AYudhaAryandi">
+            <img src="./img/Github (github ).png" alt="" />
+          </a>
+          <a href="https://www.instagram.com/ydharyndi_yud/">
+            <img src="./img/Instagram (instagram).png" alt="" />
+          </a>
+          <a href="https://www.linkedin.com/in/yudha-aryandi-6326aa256/">
+            <img src="./img/Instagram-one (instagram).png" alt="" />
+          </a>
         </div>
-      </nav>
+      </div>
+    </nav>
 
     <section>
       <div class="jumbotron">
@@ -42,62 +40,42 @@
       </div>
     </section>
 
-
-
     <section class="card">
       <div class="card1">
         <a href="https://www.invofest.phbtegal.com/">
-            <img src="./img/invofest.png" alt="">
+          <img src="./img/invofest.png" alt="" />
         </a>
-       
+
         <p>
-          ikut ambil bagian dalam kegiatan event invofest sebagai IT support dan membuat website bersama panitia lainnya
+          ikut ambil bagian dalam kegiatan event invofest sebagai IT support dan
+          membuat website bersama anggota lainnya
         </p>
       </div>
-
       <div class="card1">
-        <section>
-        <img src="./img/health.png    " alt="">
-        <p>
-          website buatan sendiri yang bertemakan kesehatan
-        </p>
+        <img src="./img/health.png    " alt="" />
+        <p>website buatan sendiri yang bertemakan kesehatan</p>
+    </div>
     </section>
-      </div>
-    </section>
-
 
     <footer>
-        <p>&copy; Portofolio Yudha</p>
+      <p>&copy; Portofolio Yudha</p>
     </footer>
-    
+
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-  const sosmedLinks = document.querySelectorAll('.sosmed a');
+      
+        const cards = document.querySelectorAll(".card");
 
-  sosmedLinks.forEach(link => {
-    link.addEventListener('click', function (event) {
-      event.preventDefault();
-      console.log('Sosmed link clicked!');
-      // Tambahkan styling tambahan saat link diklik
-      link.style.color = 'red';
-      link.style.border = '2px solid red';
-    });
-  });
+        cards.forEach((card) => {
+          card.addEventListener("mouseover", function () {
+            card.style.transform = "scale(1.1)";
+            card.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";
+          });
 
-  const cards = document.querySelectorAll('.card');
-
-  cards.forEach(card => {
-    card.addEventListener('mouseover', function () {
-      card.style.transform = 'scale(1.1)';
-      card.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
-    });
-
-    card.addEventListener('mouseout', function () {
-      card.style.transform = 'scale(1)';
-      card.style.boxShadow = 'none';
-    });
-  });
-});
+          card.addEventListener("mouseout", function () {
+            card.style.transform = "scale(1)";
+            card.style.boxShadow = "none";
+          });
+        });
 
     </script>
   </body>
